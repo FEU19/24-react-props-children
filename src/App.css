@@ -22,5 +22,26 @@
     border-radius: 1em;
     padding: 1em;
     margin: 2em;
-    
+
+}
+
+.tabs {
+    border: 1px solid gray;
+    padding: 1em;
+    margin: 1em;
+}
+.tabs > .headers {
+    display: flex;
+    flex-direction: row;
+}
+.tabs > .headers > * {
+    border: 1px solid gray;
+    padding: 0.5em;
+}
+.tabs > .headers > .selected {
+    background-color: gray;
+}
+.tabs > .headers > :hover {
+    cursor: pointer;
+    background-color: lightgray;
 }
